@@ -13,7 +13,7 @@ end
 def long_planeteer_calls(calls)
   calls.reject do |len|
     if calls.length > 4
-      return true
+      calls == true
     else
       return false
     end

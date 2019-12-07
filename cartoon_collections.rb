@@ -11,7 +11,7 @@ def summon_captain_planet(planeteers)
 end
 
 def long_planeteer_calls(calls)
-  calls.reject do |len|
+  calls.select do |len|
     if calls.length > 4
       calls == true
     else

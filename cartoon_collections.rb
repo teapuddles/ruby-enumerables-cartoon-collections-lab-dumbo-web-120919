@@ -27,5 +27,4 @@ def find_the_cheese(aos)
   else
     return nil 
   end
-  
 end

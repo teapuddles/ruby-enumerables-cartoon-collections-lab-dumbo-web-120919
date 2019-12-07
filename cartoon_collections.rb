@@ -14,7 +14,7 @@ def long_planeteer_calls(calls)
     if calls.select { |len| len.length > 4}
       return true
     else
-    if calls.select { |len| len.length < 4}
+      calls.select { |len| len.length < 4}
       return false
     end
   end

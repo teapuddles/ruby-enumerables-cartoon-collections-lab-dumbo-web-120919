@@ -23,7 +23,7 @@ def long_planeteer_calls(calls)
 def find_the_cheese(aos)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if aos.include?(cheese_types)
-    puts aos(cheese_types)
+    binding.pry
   else
     return nil 
   end
